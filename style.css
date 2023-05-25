@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar 
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.navbar
+{
+    background-image: linear-gradient(to right, #3c8cee,#1149cb);
+    padding: 20px !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+
+}
+.role{
+    color: #4e8edc;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px;
+}
+
+.fa-angle-double-right{
+    color: #fff;
+    font-size: 30px;
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+.reglog{
+    margin-top: -70px;
+  
+}
+.boxes{
+    background-color: #1149cb;
+    border-radius: 20px;
+    color: #fff;
+}
+
+#about .pic1{
+   border-radius: 20px;
+    box-shadow: #3c8cee;
+}
+
+.pic2{
+    border-radius: 20px;
+    margin-top: -50px;
+    margin-left: 100px;
+ }
+
+header.masthead{
+    text-align:center;color:#fff;background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center center;
+    background-size:cover}
+  
+  header.masthead .intro-text{padding-top:150px;
+    padding-bottom:100px}
+  header.masthead .intro-text .intro-lead-in{
+    font-size:22px;line-height:22px;
+    margin-bottom:25px;
+    font-family:"Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif}
+  header.masthead .intro-text .intro-heading{font-size:50px;
+    font-weight:700;
+    line-height:50px;
+    margin-bottom:25px;
+    font-family:"Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif}
+  
+  @media(min-width: 768px){header.masthead .intro-text{padding-top:300px;padding-bottom:200px}header.masthead .intro-text .intro-lead-in{font-size:40px;line-height:40px;margin-bottom:25px;font-family:"Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif}header.masthead .intro-text .intro-heading{font-size:75px;font-weight:700;line-height:75px;margin-bottom:50px;font-family:"Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif}}
+  
+  .services{
+    margin-top: 50px;;
+  }
+
+
+  .counters{
+    background-image: url('data.jpg');
+    height:100px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  
+  .footer{
+    background: linear-gradient(to right, #414447,#3a4152);
+    height:150px;
+    color: #fff;
+  }
